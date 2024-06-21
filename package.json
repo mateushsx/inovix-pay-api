@@ -1,0 +1,16 @@
+{
+  "name": "inovix-pay-api",
+  "version": "1.0.0",
+  "description": "Inovix Pay API",
+  "homepage": "https://github.com/mateushsx/inovix-pay-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateushsx/inovix-pay-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mateushsx/inovix-pay-api/issues"
+  },
+  "author": "Mateus Henrique",
+  "license": "MIT",
+  "scripts": {}
+}
