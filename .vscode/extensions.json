@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "PKief.material-icon-theme",
+    "wayou.vscode-todo-highlight",
+    "Gruntfuggly.todo-tree",
+    "MarioQueiros.CamelCase",
+    "EditorConfig.EditorConfig",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "mike-co.import-sorter",
+    "ChakrounAnas.turbo-console-log"
+  ]
+}

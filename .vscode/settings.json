@@ -1,0 +1,114 @@
+{
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.rulers": [
+    100
+  ],
+  "[json]": {
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "typescript"
+  ],
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    ".editorconfig": true,
+    ".gitlab": true,
+    ".stoplight": true,
+    "coverage/**": true,
+    "dist/**": true,
+    "node_modules/**": true,
+    "docker/**": true,
+    "import-sorter.json": true,
+    "LICENSE": true,
+    ".sequelizerc": true,
+  },
+  "gitlens.views.contributors.showStatistics": true,
+  "git.branchProtection": [
+    "master"
+  ],
+  "git.autofetch": true,
+  "typescript.format.enable": true,
+  "typescript.validate.enable": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.format.enable": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "todohighlight.keywords": [
+    {
+      "text": "gateway",
+      "color": "#a73838",
+      "backgroundColor": "none",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "/gateway",
+      "color": "#F1FA8C",
+      "backgroundColor": "none",
+      "overviewRulerColor": "grey"
+    },
+  ],
+  "todo-tree.highlights.enabled": false,
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.logMessagePrefix": "🤖 [LOG-DEV]",
+  "turboConsoleLog.quote": "'",
+  "material-icon-theme.folders.associations": {
+    "migrations": "tools",
+    "schemas": "json",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "contexts": "shared",
+    "entities": "Job",
+    "useCases": "Custom",
+    "implementations": "Scripts",
+    "adapters": "Meta",
+    "infra": "Tools",
+    "use-cases": "Rules",
+    "repository-factory": "Pipe",
+    "services-factory": "Resource",
+    "repository": "Plugin",
+    "apiPython": "Python",
+    "docker-postgres": "Docker",
+    "docker-tensorflow": "Docker",
+    "interactors": "Less",
+    "Gerencianet": "Job",
+    "commons": "Resource",
+    "common": "Resource",
+  },
+  "material-icon-theme.files.associations": {
+    ".env.exemple": "Tune",
+    "**.interactor.ts": "Verilog",
+    "**.usecase.ts": "Verilog",
+    "**.entity.ts": "Nim",
+    "**.gateway.ts": "Tree",
+    "gateway.ts": "Tree",
+    "**.ports.ts": "Tree",
+    "**.dtos.ts": "Capacitor",
+    "dtos.ts": "Capacitor",
+  },
+  "workbench.iconTheme": "material-icon-theme"
+}
